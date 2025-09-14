@@ -11,9 +11,11 @@ import com.cvms.api.entity.vacancy.VacancyCriteria;
 
 @Component
 public class AgeCriteriaCalculator implements CriteriaCalculator {
+    public CriteriaType getType() {
+        return CriteriaType.AGE;
+    }
+
     public Integer calculateScore(Candidate candidate, VacancyCriteria criteria) {
-        if (criteria.getType() != CriteriaType.AGE)
-            return 0;
 
         int candidateAge = Period.between(candidate.getBirthdate(), LocalDate.now()).getYears();
 

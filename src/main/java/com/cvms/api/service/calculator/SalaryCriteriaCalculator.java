@@ -8,10 +8,11 @@ import com.cvms.api.entity.vacancy.VacancyCriteria;
 
 @Component
 public class SalaryCriteriaCalculator implements CriteriaCalculator {
-    public Integer calculateScore(Candidate candidate, VacancyCriteria criteria) {
-        if (criteria.getType() != CriteriaType.SALARY)
-            return 0;
+    public CriteriaType getType() {
+        return CriteriaType.SALARY;
+    }
 
+    public Integer calculateScore(Candidate candidate, VacancyCriteria criteria) {
         if (candidate.getCurrentSalary() >= criteria.getMinValue()
                 && candidate.getCurrentSalary() <= criteria.getMaxValue())
             return criteria.getWeight();
