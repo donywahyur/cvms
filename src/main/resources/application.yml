@@ -1,0 +1,8 @@
+spring:
+    data:
+        mongodb:
+            uri: ${MONGO_URL}
+            database: ${MONGO_DATABASE}
+            auto-index-creation: true
+    messages:
+        basename: validation
