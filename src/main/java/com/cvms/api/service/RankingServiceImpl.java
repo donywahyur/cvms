@@ -42,6 +42,7 @@ public class RankingServiceImpl implements RankingService {
         List<Candidate> candidates = candidateRepository.findAll();
 
         List<RankingResponse> rankingResult = candidates.stream().map(candidate -> new RankingResponse(
+                candidate.getId(),
                 candidate.getName(),
                 candidate.getEmail(),
                 calculateScore(candidate, vacancy)))

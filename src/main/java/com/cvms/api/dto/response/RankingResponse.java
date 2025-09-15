@@ -1,8 +1,9 @@
 package com.cvms.api.dto.response;
 
 public record RankingResponse(
-                String candidateName,
-                String email,
-                Integer score) {
+        String candidateId,
+        String candidateName,
+        String email,
+        Integer score) {
 
 }
