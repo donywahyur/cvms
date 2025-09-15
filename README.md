@@ -109,3 +109,13 @@ mvn spring-boot:run
     -   Other custom exceptions
 
 ---
+
+## Images
+
+-   Junior Software Engineer
+    ![alt text](junior_data.png)
+    ![alt text](junior_rank.png)
+
+-   Senior Data Scientist - Data
+    ![alt text](senior_data.png)
+    ![alt text](senior_rank.png)
