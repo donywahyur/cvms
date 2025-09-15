@@ -112,10 +112,10 @@ mvn spring-boot:run
 
 ## Images
 
--   Junior Software Engineer
+-   Junior Software Engineer<br>
     ![alt text](junior_data.png)
     ![alt text](junior_rank.png)
 
--   Senior Data Scientist - Data
+-   Senior Data Scientist - Data<br>
     ![alt text](senior_data.png)
     ![alt text](senior_rank.png)
