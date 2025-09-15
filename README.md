@@ -64,27 +64,27 @@ mvn spring-boot:run
 
 ### Candidate
 
-| Method | Endpoint           | Description         |
-| ------ | ------------------ | ------------------- |
-| POST   | `/candidates`      | Create candidate    |
-| GET    | `/candidates`      | List all candidates |
-| PUT    | `/candidates/{id}` | Update candidate    |
-| DELETE | `/candidates/{id}` | Delete candidate    |
+| Method | Endpoint               | Description         |
+| ------ | ---------------------- | ------------------- |
+| POST   | `/api/candidates`      | Create candidate    |
+| GET    | `/api/candidates`      | List all candidates |
+| PUT    | `/api/candidates/{id}` | Update candidate    |
+| DELETE | `/api/candidates/{id}` | Delete candidate    |
 
 ### Vacancy
 
-| Method | Endpoint          | Description        |
-| ------ | ----------------- | ------------------ |
-| POST   | `/vacancies`      | Create vacancy     |
-| GET    | `/vacancies`      | List all vacancies |
-| PUT    | `/vacancies/{id}` | Update vacancy     |
-| DELETE | `/vacancies/{id}` | Delete vacancy     |
+| Method | Endpoint              | Description        |
+| ------ | --------------------- | ------------------ |
+| POST   | `/api/vacancies`      | Create vacancy     |
+| GET    | `/api/vacancies`      | List all vacancies |
+| PUT    | `/api/vacancies/{id}` | Update vacancy     |
+| DELETE | `/api/vacancies/{id}` | Delete vacancy     |
 
 ### Ranking
 
-| Method | Endpoint                | Description         |
-| ------ | ----------------------- | ------------------- |
-| GET    | `/ranking/{vacancyId}` | Get rankings |
+| Method | Endpoint                   | Description  |
+| ------ | -------------------------- | ------------ |
+| GET    | `/api/ranking/{vacancyId}` | Get rankings |
 
 ---
 
