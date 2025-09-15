@@ -57,6 +57,7 @@ mvn spring-boot:run
 
 1. Make sure your application is running (default: `http://localhost:8080`).
 2. Open your browser and navigate to: http://localhost:8080/swagger-ui/index.html#/
+   ![alt text](swagger_image.png)
 
 ---
 
