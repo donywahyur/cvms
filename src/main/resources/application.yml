@@ -1,7 +1,7 @@
 spring:
     data:
         mongodb:
-            uri: mongodb://localhost:27017/cvms
+            uri: mongodb://cvms:cvms_1234@localhost:27017/cvms?authSource=admin
             auto-index-creation: true
     messages:
         basename: validation
