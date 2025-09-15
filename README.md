@@ -38,13 +38,10 @@ git clone https://github.com/donywahyur/cvms.git
 cd cvms
 ```
 
-2. Configure `application.yml` for MongoDB:
+2. Run docker compose for mongoDB:
 
-```yaml
-spring:
-    data:
-        mongodb:
-            uri: mongodb://localhost:27017/cvms
+```bash
+docker compose up -d
 ```
 
 3. Build & run:
