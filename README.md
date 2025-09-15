@@ -87,7 +87,7 @@ mvn spring-boot:run
 
 | Method | Endpoint                | Description         |
 | ------ | ----------------------- | ------------------- |
-| GET    | `/ranking/{vacancyId}` | Get cached rankings |
+| GET    | `/ranking/{vacancyId}` | Get rankings |
 
 ---
 
