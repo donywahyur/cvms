@@ -1,8 +1,7 @@
 spring:
     data:
         mongodb:
-            uri: ${MONGO_URL}
-            database: ${MONGO_DATABASE}
+            uri: mongodb://localhost:27017/cvms
             auto-index-creation: true
     messages:
         basename: validation

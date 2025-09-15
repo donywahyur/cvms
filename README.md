@@ -38,16 +38,13 @@ git clone https://github.com/donywahyur/cvms.git
 cd cvms
 ```
 
-2. Configure `application.yml` for MongoDB & Redis:
+2. Configure `application.yml` for MongoDB:
 
 ```yaml
 spring:
     data:
         mongodb:
             uri: mongodb://localhost:27017/cvms
-    redis:
-        host: localhost
-        port: 6379
 ```
 
 3. Build & run:
@@ -56,6 +53,13 @@ spring:
 mvn clean install
 mvn spring-boot:run
 ```
+
+---
+
+### Accessing Swagger UI
+
+1. Make sure your application is running (default: `http://localhost:8080`).
+2. Open your browser and navigate to: http://localhost:8080/swagger-ui/index.html#/
 
 ---
 
